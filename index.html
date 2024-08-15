@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjiv Thapa</title>
+    <link rel="icon" type="image/x-icon" href="unnamed.jpg">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="image_slide.css" />
+  </head>
+  <body>
+    <div class="navigation-bar">
+      <ul id="navbar" class="lists">
+        <li><button>Home</button></li>
+        <li><button>About Me</button></li>
+        <li><button>Contact</button></li>
+        <li><button>Interests</button></li>
+      </ul>
+      <div class="searchbars">
+        <a href="https://www.google.com/"><button class="google"><img src="google.png"></button></a>
+        <input type="text" id="searchinput" placeholder="Search in Google" />
+        <button class="searchbutton" id="searchbtn">🔍</button>
+        <a href="login.html" target="_blank"><button>Login</button></a>
+        <a href="Sign Up.html" target="_blank"><button>Sign Up</button></a>
+      </div>
+    </div>
+
+    <div class="slider">
+      <div class="slides">
+        <img src="1.jpg" alt="Image 1" />
+        <img src="2.jpg" alt="Image 2" />
+        <img src="3.jpg" alt="Image 3" />
+        <img src="4.jpg" alt="Image 4" />
+        <img src="5.jpg" alt="Image 5" />
+        <img src="7.jpg" alt="Image 7" />
+        <img src="8.jpg" alt="Image 8" />
+        <img src="9.jpg" alt="Image 9" />
+      </div>
+      <button class="prev" onclick="moveSlides(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlides(+1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

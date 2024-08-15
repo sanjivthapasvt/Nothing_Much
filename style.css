@@ -1,0 +1,46 @@
+.lists {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .lists li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #2300eb;
+  }
+  .navigation-bar button {
+    font-size: 15px;
+    border: 0px;
+    color: white;
+    background-color: #14a40f;
+  }
+  .navigation-bar button:hover {
+    cursor: pointer;
+    color: rgb(128, 128, 128);
+  }
+  .navigation-bar {
+    background-color: #14a40f;
+    height: 90px;
+    width: auto;
+    margin-top: 0px;
+  }
+  .searchbars {
+    text-align: center;
+  }
+  #searchinput {
+    border-color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 800px;
+  }
+  .navigation-bar .searchbars{
+      font-size: 3em;
+  }
+  
+  .searchbars .google img{
+    width: 50px;
+    height: 50px;
+    margin: -20px;
+    
+  }
